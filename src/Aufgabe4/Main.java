@@ -19,7 +19,7 @@ public class Main {
         for (int i = 0;i<5;i++ )
         {
             //Die Liste wird mittels for-schleife ausgegeben.
-            System.out.println("Der Name des " + (i+1) + " Freundes ist: " + friends.get(i).toString());
+            System.out.println( (i+1) + friends.get(i).toString());
         }
     }
 }

@@ -26,6 +26,6 @@ public class Friends {
 
     @Override
     public String toString() {
-        return name;
+        return " Freund ist: " + name;
     }
 }
